@@ -1,35 +1,45 @@
 import React from 'react';
 import ItemCard from '../itemCard/itemcard'
 import "./cardlist.css"
+import { connect } from 'react-redux';
+
+const mapStateToProps = state => ({
+    mode: state.mode
+})
+
+const mapDispatchToProps = dispatch => ({
+
+})
 
 class CardList extends React.Component {
     constructor() {
         super();
-        this.state={
-            mode: "list"
+        this.state = {
+            mode: "tiles"
         }
     }
 
     render() {
+        const time = new Date();
         return (
-            <div>
-                {this.state.mode=="tiles"?
+            <div style={{ textAlign: 'center' }}>
+                {this.props.mode == "tiles" ?
                     this.props.items.map((item, index) => {
                         return (
-                            <ItemCard key={index} name={item.name} description={item.description} imgsrc="https://picsum.photos/300/180" />
+                            <ItemCard mode={this.props.mode} key={index} name={item.name} description={item.description} imgsrc={`https://picsum.photos/seed/${item.name + index + time.getSeconds()}/300/180`} />
                         )
                     })
-                :
-                <div className="cardsInOneList"> 
-                {this.props.items.map((item, index) => {
-                        return (
-                            <ItemCard key={index} name={item.name} description={item.description} imgsrc="https://picsum.photos/300/180" />
-                        )
-                    })}
-                     </div>}
+                    :
+                    <div className="cardsInOneList">
+                        {this.props.items.map((item, index) => {
+                            return (
+                                <ItemCard mode={this.props.mode} key={index} name={item.name} description={item.description} imgsrc={`https://picsum.photos/seed/${item.name + index + time.getSeconds()}/1200/800`} />
+                            )
+                        })}
+                    </div>}
             </div >
         );
     }
 };
 
-export default CardList;
+export default connect(mapStateToProps, mapDispatchToProps)(CardList);

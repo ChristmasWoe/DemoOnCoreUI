@@ -9,7 +9,7 @@ const items = [
     description: "best deal for cyclers",
   },
   {
-    name: "cycle",
+    name: "",
     description: "best deal for cyclers",
   },
   {
@@ -76,7 +76,7 @@ class Dashboard extends Component {
   render() {
 
     return (
-      <div className="animated fadeIn">
+      <div style={{ overflowY: 'hidden', overflowX: 'hidden' }} className="animated fadeIn">
         <CardList items={items} />
       </div>
     );

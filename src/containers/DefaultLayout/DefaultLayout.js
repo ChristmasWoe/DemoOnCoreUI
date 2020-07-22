@@ -42,7 +42,7 @@ class DefaultLayout extends Component {
     super(props);
     // this.closeSignUpModal.bind(this)
     this.state = {
-      modalSignUpIsOpen: true,
+      modalSignUpIsOpen: false,
     }
   }
 
@@ -85,24 +85,7 @@ class DefaultLayout extends Component {
             <AppBreadcrumb appRoutes={routes} router={router} />
             <Container fluid>
               <Suspense fallback={this.loading()}>
-                <Modal
-                  isOpen={this.state.modalSignUpIsOpen}
-                  // onAfterOpen={afterOpenModal}
-                  onRequestClose={this.closeSignUpModal}
-                  style={customStyles}
-                  contentLabel="Example Modal"
-                >
-                  <button onClick={this.closeSignUpModal}>close</button>
-                  <div>I am a modal</div>
-                  <form>
-                    <input />
-                    <button>tab navigation</button>
-                    <button>stays</button>
-                    <button>inside</button>
-                    <button>the modal</button>
-                  </form>
 
-                </Modal>
                 <Switch>
                   {routes.map((route, idx) => {
                     return route.component ? (

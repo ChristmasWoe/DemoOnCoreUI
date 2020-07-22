@@ -37,10 +37,12 @@
     "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.8.6",
     "react-modal": "^3.11.2",
+    "react-redux": "^7.2.0",
     "react-router-config": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-test-renderer": "^16.8.6",
     "reactstrap": "^8.0.0",
+    "redux": "^4.0.5",
     "simple-line-icons": "^2.4.1",
     "tachyons": "^4.11.1"
   },

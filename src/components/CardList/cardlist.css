@@ -1,4 +1,7 @@
-.cardsInOneList{
-    display: flex;
-    flex-direction: column;
+.cardsInOneList {
+  display: block;
+  flex-direction: column;
+  margin-left: auto;
+  max-width: 1200px;
+  margin-right: auto;
 }
