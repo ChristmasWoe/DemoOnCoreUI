@@ -56,6 +56,162 @@ const items = [
     name: "cycle",
     description: "best deal for cyclers",
   },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
+  {
+    name: "cycle",
+    description: "best deal for cyclers",
+  },
 ]
 
 class Dashboard extends Component {
